@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{1c5a17ac-8ac6-480c-b41e-818b14e8c14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{7173afa4-1cc1-476e-94a9-57f4895ad36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Exploration">
+      <UniqueIdentifier>{ee92f494-f67e-4496-99fd-27f65495ec8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Characters">
+      <UniqueIdentifier>{af8c77d4-5a9c-4ce6-bdb9-909cb51de906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{67305b3d-270f-497b-8808-1a431556e6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{506703e8-d39b-45e6-8b1f-1958777633f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Exploration">
+      <UniqueIdentifier>{ce4ed914-3898-4d8e-989a-c86447dc3a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Characters">
+      <UniqueIdentifier>{aceadaa9-12d9-4754-9214-cfbfea279f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{15971808-9996-46d6-9ae9-df245318039c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Modes">
+      <UniqueIdentifier>{93cc854b-c67d-40f7-84d2-9f36c6fddfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Modes">
+      <UniqueIdentifier>{24ace136-336c-439b-9da8-04173b7ffcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{55c767c1-d95e-4c3e-bbf4-2b2be21f58b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{ef5bf050-d64f-4003-8046-21b1e90380c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{37cd086a-1e6d-4d16-811b-fd51d71f72eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{05c00d8f-fabb-4693-8a8a-7c600e35d461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{52848602-3531-441c-89d3-450675f0fa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{8c0dfe60-936a-4d6b-a23d-5f0d177baa21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{2508d41d-303f-41b2-97d1-2bffb19de225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Menu">
+      <UniqueIdentifier>{5b0a4cef-5aaf-45cf-9e1a-7bae71286b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Menu">
+      <UniqueIdentifier>{afb1d424-cfcd-4615-8cce-49552694aad1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\configuration.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\textures\bleu.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\down.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\left.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\right.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\rose.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\rpg_sprite.png">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\up.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\vert.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="resources\textures\zelda.bmp">
+      <Filter>Resource Files\textures</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Config\Parser.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config\Platform.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config\Types.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Characters\Character.h">
+      <Filter>Header Files\Game\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Exploration\Cell.h">
+      <Filter>Header Files\Game\Exploration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Exploration\Map.h">
+      <Filter>Header Files\Game\Exploration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Modes\ExplorationMode.h">
+      <Filter>Header Files\Game\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Modes\Mode.h">
+      <Filter>Header Files\Game\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Animation.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\AnimatedSprite.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound\SoundEngine.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Modes\MenuMode.h">
+      <Filter>Header Files\Game\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\ResourceManager.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config\Configuration.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\MenuItem.h">
+      <Filter>Header Files\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config\Logger.hpp">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config\Controller.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Characters\Character.cpp">
+      <Filter>Source Files\Game\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Exploration\Cell.cpp">
+      <Filter>Source Files\Game\Exploration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Exploration\Map.cpp">
+      <Filter>Source Files\Game\Exploration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Modes\ExplorationMode.cpp">
+      <Filter>Source Files\Game\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Animation.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\AnimatedSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound\SoundEngine.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Modes\MenuMode.cpp">
+      <Filter>Source Files\Game\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\ResourceManager.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config\Configuration.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErzatzKnight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\MenuItem.cpp">
+      <Filter>Source Files\Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config\Logger.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config\Controller.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

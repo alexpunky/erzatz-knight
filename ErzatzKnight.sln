@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ErzatzKnight", "ErzatzKnight\ErzatzKnight.vcxproj", "{1657F303-FA56-4A5F-8150-26F16FAF66E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BoostUT|Mixed Platforms = BoostUT|Mixed Platforms
+		BoostUT|Win32 = BoostUT|Win32
+		BoostUT|x64 = BoostUT|x64
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.BoostUT|Mixed Platforms.ActiveCfg = BoostUT|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.BoostUT|Mixed Platforms.Build.0 = BoostUT|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.BoostUT|Win32.ActiveCfg = BoostUT|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.BoostUT|Win32.Build.0 = BoostUT|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.BoostUT|x64.ActiveCfg = BoostUT|x64
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.BoostUT|x64.Build.0 = BoostUT|x64
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Debug|Win32.Build.0 = Debug|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Debug|x64.ActiveCfg = Debug|x64
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Debug|x64.Build.0 = Debug|x64
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Release|Win32.ActiveCfg = Release|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Release|Win32.Build.0 = Release|Win32
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Release|x64.ActiveCfg = Release|x64
+		{1657F303-FA56-4A5F-8150-26F16FAF66E5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
